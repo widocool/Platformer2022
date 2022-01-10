@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e9cedd6b5a661440b8d0df62c9e6ecd, type: 3}
+  m_Name: ControllerDescription.Gamepad
+  m_EditorClassIdentifier: 
+  _horizontalMove: {fileID: 11400000, guid: 6bb3ccf8c849b7a44ba02239584fe9ff, type: 2}
+  _verticalMove: {fileID: 11400000, guid: db15a6e6d9935254ebe5bfe3eea8c137, type: 2}
+  _verticalLook: {fileID: 11400000, guid: 015d0f1a58f19c2428eb3a0ed334200e, type: 2}
+  _horizontalLook: {fileID: 11400000, guid: a05600d5f3c44a048a83b9fdc413007c, type: 2}
+  _jump: {fileID: 11400000, guid: 7ab023c1db6be9946b2ee09337313319, type: 2}
+  _dash: {fileID: 11400000, guid: 2c07feac4f5fb8b41bb1536a8be5242d, type: 2}
+  _wallGrab: {fileID: 11400000, guid: 9b74ab314868a4947968972bfb9eeb7a, type: 2}
+  _wallJump: {fileID: 11400000, guid: b74e0087cfb1baa46be270afdd52a221, type: 2}
+  _takeItem: {fileID: 11400000, guid: 49c8771d3013c2a4da8ddb3e01f0fc59, type: 2}
+  _releaseItem: {fileID: 11400000, guid: ec0b94df4f7730a4ab689d210a0e32d4, type: 2}
+  _useItem: {fileID: 11400000, guid: 4456445a8b358664b9eb712dfc17ef0f, type: 2}

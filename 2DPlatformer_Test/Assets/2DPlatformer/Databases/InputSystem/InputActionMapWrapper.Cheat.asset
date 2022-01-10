@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73493b7c0f3ecb743af8a26a1bae3fe7, type: 3}
+  m_Name: InputActionMapWrapper.Cheat
+  m_EditorClassIdentifier: 
+  _actionMap:
+    m_Name: Action Map
+    m_Id: 879ef829-0b8c-4f75-b221-2ebbacac4a0d
+    m_Asset: {fileID: 0}
+    m_Actions:
+    - m_Name: GoToPreviousCheckpoint
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: 6ced4ba2-7654-406e-bca8-69fa0610075d
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: GoToNextCheckpoint
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: 6fa85b21-7c4b-48fe-b9f1-07547a1c8785
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Bindings:
+    - m_Name: 
+      m_Id: 205325ab-8b3d-4f84-88eb-641e9a6b5c82
+      m_Path: <Keyboard>/f1
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: GoToPreviousCheckpoint
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 387a473e-a018-4b79-8b80-3c52712c4da0
+      m_Path: <Keyboard>/f2
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: GoToNextCheckpoint
+      m_Flags: 0

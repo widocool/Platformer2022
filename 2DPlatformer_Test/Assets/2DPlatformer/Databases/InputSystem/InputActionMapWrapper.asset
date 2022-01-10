@@ -1,0 +1,332 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73493b7c0f3ecb743af8a26a1bae3fe7, type: 3}
+  m_Name: InputActionMapWrapper
+  m_EditorClassIdentifier: 
+  _actionMap:
+    m_Name: Action Map
+    m_Id: 879ef829-0b8c-4f75-b221-2ebbacac4a0d
+    m_Asset: {fileID: 0}
+    m_Actions:
+    - m_Name: HorizontalMove
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: ba6919aa-f865-4327-876e-e992fc6a426a
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: VerticalLook
+      m_Type: 0
+      m_ExpectedControlType: Axis
+      m_Id: 98119893-52aa-4e13-8615-721b0a7e78ee
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: HorizontalLook
+      m_Type: 0
+      m_ExpectedControlType: Axis
+      m_Id: 376069b2-8196-47c4-8c7f-dc570be9fc95
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: Jump
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: 6e30bd00-414d-4fdc-9e5f-bb926a984aa3
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: Dash
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: c95766ab-5e8a-4ca0-a961-0179241adc7b
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: WallGrab
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: e71ccf84-b957-4be3-917f-b8256552db94
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: WallJump
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: 045a897b-afc5-4918-8fae-a3920ad27eed
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: TakeItem
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: 1e6e0f74-dafa-4af3-bf67-c38dc2caff0e
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: ReleaseItem
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: 126b0357-c7ea-46e6-bc2e-e56138b3c507
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: UseItem
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: b5a5761c-f382-44e2-b90a-47c1c155f496
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: GroundSmash
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: 2e40c219-dc5d-4473-9ba2-efbf458cae19
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Bindings:
+    - m_Name: 
+      m_Id: b82491d4-813d-4be0-bea8-2217def02fb7
+      m_Path: 
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: HorizontalMove
+      m_Flags: 0
+    - m_Name: 1D Axis
+      m_Id: 52337c5f-fd51-4c71-a9a6-f577fe3bdb05
+      m_Path: 1DAxis
+      m_Interactions: 
+      m_Processors: AxisDeadzone
+      m_Groups: 
+      m_Action: HorizontalMove
+      m_Flags: 4
+    - m_Name: negative
+      m_Id: 8fa05b69-4eac-4797-a345-a2166221f9e6
+      m_Path: <Keyboard>/a
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: HorizontalMove
+      m_Flags: 8
+    - m_Name: positive
+      m_Id: 62daea73-047e-4e05-8650-c8e4cd7378dd
+      m_Path: <Keyboard>/d
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: HorizontalMove
+      m_Flags: 8
+    - m_Name: Gamepad1D Axis
+      m_Id: beff1291-9876-42ca-a02f-fe043e4aae83
+      m_Path: 1DAxis
+      m_Interactions: 
+      m_Processors: AxisDeadzone
+      m_Groups: 
+      m_Action: HorizontalMove
+      m_Flags: 4
+    - m_Name: negative
+      m_Id: 7960eb0e-8d2f-4636-af92-3ec0a3eb76f2
+      m_Path: <Gamepad>/leftStick/left
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: HorizontalMove
+      m_Flags: 8
+    - m_Name: positive
+      m_Id: 940fbe88-1540-4769-aa5b-c6965a0238d9
+      m_Path: <Gamepad>/leftStick/right
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: HorizontalMove
+      m_Flags: 8
+    - m_Name: 
+      m_Id: bab2eb58-1a49-48bd-9903-1d741645a34c
+      m_Path: <Keyboard>/space
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Jump
+      m_Flags: 0
+    - m_Name: 
+      m_Id: c12c7b0a-6041-49b8-9066-8f62102d9f0a
+      m_Path: <Gamepad>/buttonSouth
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Jump
+      m_Flags: 0
+    - m_Name: 
+      m_Id: c2d8f9d3-3d38-45a1-a1f4-f5c3c294a49a
+      m_Path: <Keyboard>/leftCtrl
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Dash
+      m_Flags: 0
+    - m_Name: 
+      m_Id: d69efeda-325b-40fb-8c58-cd44f8d24019
+      m_Path: <Gamepad>/rightTrigger
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Dash
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 4f5c77ca-fb78-490e-a132-86ee78cc870c
+      m_Path: <Mouse>/leftButton
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: WallGrab
+      m_Flags: 0
+    - m_Name: 
+      m_Id: f6685742-0816-4912-9c48-d429bb37a1b0
+      m_Path: <Gamepad>/buttonWest
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: WallGrab
+      m_Flags: 0
+    - m_Name: 
+      m_Id: cf8a1589-ccc6-4482-8b85-bbd5ea13bd64
+      m_Path: <Mouse>/leftButton
+      m_Interactions: Press(behavior=1)
+      m_Processors: 
+      m_Groups: 
+      m_Action: WallJump
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 1d5cc741-5a6a-4968-a5ef-fbd9f53dfdca
+      m_Path: <Gamepad>/buttonWest
+      m_Interactions: Press(behavior=1)
+      m_Processors: 
+      m_Groups: 
+      m_Action: WallJump
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 53386b46-8e48-44d3-854b-e1b6e2dcf1ba
+      m_Path: <Keyboard>/r
+      m_Interactions: Press(behavior=1)
+      m_Processors: 
+      m_Groups: 
+      m_Action: TakeItem
+      m_Flags: 0
+    - m_Name: 
+      m_Id: ac74ada2-3a82-464e-96ca-f6862eeca4ea
+      m_Path: <Gamepad>/buttonNorth
+      m_Interactions: Press(behavior=1)
+      m_Processors: 
+      m_Groups: 
+      m_Action: TakeItem
+      m_Flags: 0
+    - m_Name: 
+      m_Id: da4c1ccd-269b-4755-be34-f7abde14cc85
+      m_Path: <Keyboard>/r
+      m_Interactions: Press(behavior=1)
+      m_Processors: 
+      m_Groups: 
+      m_Action: ReleaseItem
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 0b4395f3-298a-45ed-a040-9c381b6a33d9
+      m_Path: <Gamepad>/buttonNorth
+      m_Interactions: Press(behavior=1)
+      m_Processors: 
+      m_Groups: 
+      m_Action: ReleaseItem
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 56806c64-6cdd-414f-9395-d033c9e2be98
+      m_Path: <Mouse>/leftButton
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: UseItem
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 6f084cd3-fe8f-49ed-a8d4-9ed04c540231
+      m_Path: <Gamepad>/rightShoulder
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: UseItem
+      m_Flags: 0
+    - m_Name: 1D Axis
+      m_Id: ea205848-b687-4dfb-9c6a-fb57d8eed390
+      m_Path: 1DAxis
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: HorizontalLook
+      m_Flags: 4
+    - m_Name: Negative
+      m_Id: 3839572b-a93c-4834-8735-a4e0fb76b39b
+      m_Path: <Gamepad>/rightStick/left
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: HorizontalLook
+      m_Flags: 8
+    - m_Name: Positive
+      m_Id: 889cb2cb-4d5d-478c-81e1-c73eea38f311
+      m_Path: <Gamepad>/rightStick/right
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: HorizontalLook
+      m_Flags: 8
+    - m_Name: 1D Axis
+      m_Id: 0286dd08-f0cd-4971-afea-4233d5c1fb6f
+      m_Path: 1DAxis
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: VerticalLook
+      m_Flags: 4
+    - m_Name: Negative
+      m_Id: ceada33a-6876-4eea-9606-67034f214b46
+      m_Path: <Gamepad>/rightStick/down
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: VerticalLook
+      m_Flags: 8
+    - m_Name: Positive
+      m_Id: bb2abe0e-fabf-4d1f-9e2c-43393c1b1be4
+      m_Path: <Gamepad>/rightStick/up
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: VerticalLook
+      m_Flags: 8
+    - m_Name: 
+      m_Id: 7d934983-7700-4ed3-8c0a-255a2ec9c008
+      m_Path: <Gamepad>/buttonEast
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: GroundSmash
+      m_Flags: 0
