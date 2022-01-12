@@ -22,17 +22,13 @@
 		[SerializeField]
 		private float _jumpHeightBonusSpeedThreshold = 10f;
 
-		//[SerializeField]
-		//private bool _reflectRigidbodyVelocity = false;
-
 		protected override void DoApplyForce(Rigidbody rigidbody)
 		{
 			// We zeroing out the velocity in bonus jump, otherwise the character falling velocity can be too high
-			if (currentAllowedForcesWhileInAir > 0)
+			if (currentAllowedForces > 0)
 			{
 				rigidbody.velocity = Vector3.zero;
 			}
-			rigidbody.velocity = Vector3.zero;
 
 			float height = displacementEstimationUpdater.MovementDirection.Down &&  displacementEstimationUpdater.AverageSpeed > _jumpHeightBonusSpeedThreshold ? _jumpHeight + _jumpHeightBonusWhenFalling : _jumpHeight;
 			var vel = rigidbody.velocity;

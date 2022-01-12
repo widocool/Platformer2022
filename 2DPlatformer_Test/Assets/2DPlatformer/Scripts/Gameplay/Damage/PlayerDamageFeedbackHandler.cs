@@ -79,7 +79,7 @@ namespace GSGD2.Gameplay
 			bool canChangeMaterial = _meshRenderersToSwapMaterial.Length > 0;
 			bool canPulseEmissive = _meshRenderersToPulseEmissive.Length > 0;
 
-			if (_canRumble == true)
+			if (Gamepad.current != null && _canRumble == true)
 			{
 				Gamepad.current.SetMotorSpeeds(_lowFreq, _highFreq);
 			}
@@ -120,7 +120,7 @@ namespace GSGD2.Gameplay
 			{
 				_pulseEmissive.ResetPulse();
 			}
-			if (_canRumble == true)
+			if (Gamepad.current != null && _canRumble == true)
 			{
 				Gamepad.current.SetMotorSpeeds(0f, 0f);
 			}
