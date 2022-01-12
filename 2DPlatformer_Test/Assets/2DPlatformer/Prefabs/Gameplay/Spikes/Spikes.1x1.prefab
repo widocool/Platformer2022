@@ -63,7 +63,7 @@ MonoBehaviour:
   _ignorePlayer: 0
   _giveDOT: 1
   _DOTDamage:
-    _damageValue: 1
+    _damageValue: 99999
     _bump:
       enabled: 1
       _maximumAllowedForcesWhileInAir: 1
