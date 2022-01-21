@@ -7,7 +7,7 @@
 	/// PickupCommand used to modify player health. It can be workarounded to poison the player, but it shouldn't be used that way, since it will not call TakeDamage() and trigger the chain of events.
 	/// </summary>
 	[CreateAssetMenu(menuName = "GameSup/HealthPickupCommand", fileName = "HealthPickupCommand")]
-	public class HealthPickupCommand : PickupCommand
+	public class LootPickupCommand : PickupCommand
 	{
 		[SerializeField]
 		private int _healthToChange = 1;

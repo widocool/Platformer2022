@@ -9,6 +9,12 @@ EditorBuildSettings:
     path: Assets/2DPlatformer/Scenes/EntryPoint.unity
     guid: 8b802caaa0932e54aa1f97cef450b534
   - enabled: 1
+    path: Assets/2DPlatformer/Scenes/Level_01.unity
+    guid: 9512a1ae2041b06408cdd99eebd9d67d
+  - enabled: 1
+    path: Assets/2DPlatformer/Scenes/Level_02.unity
+    guid: 3a69b928dd3169c4abacbab13590a4db
+  - enabled: 1
     path: Assets/2DPlatformer/Scenes/MainMenu.unity
     guid: 357a21f5e581f2b4cb5caaeb254a94b2
   - enabled: 1

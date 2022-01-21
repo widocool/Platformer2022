@@ -2115,7 +2115,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2196546130007148694, guid: 2c3459fa62903284b91be95f9c99be4e, type: 3}
       propertyPath: m_Name
-      value: Item
+      value: Item Variant.ProjectileLauncher
       objectReference: {fileID: 0}
     - target: {fileID: 4850943889285869774, guid: 2c3459fa62903284b91be95f9c99be4e, type: 3}
       propertyPath: m_RootOrder

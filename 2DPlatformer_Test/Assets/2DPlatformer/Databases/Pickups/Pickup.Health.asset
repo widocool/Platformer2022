@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Pickup.Health
   m_EditorClassIdentifier: 
   _destroyPickupOnApply: 1
-  _healthToRestore: 1
+  _healthToChange: 1

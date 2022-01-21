@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72b5afcaedb8b5743b72e508eee0cd2c, type: 3}
   m_Name: Pickup.AbilityModifier.AddMaximumForceToJump
   m_EditorClassIdentifier: 
-  _destroyPickupOnApply: 1
+  _destroyPickupOnApply: 0
   _ability: 0
   _modifier: 2

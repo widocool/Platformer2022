@@ -190,7 +190,7 @@ namespace GSGD2
 		private void OnEnable()
 		{
 			_cameraAnimator = _smCamera.GetComponent<Animator>();
-			_globalImpulseSource = LevelReferences.Instance.CinemachineBrain.GetComponent<CinemachineImpulseSource>();
+			_globalImpulseSource = LevelReferences.Instance.Camera.GetComponent<CinemachineImpulseSource>();
 			_playerStart = LevelReferences.Instance.PlayerStart;
 			var player = LevelReferences.Instance.Player;
 			_displacementEstimationUpdater = player.GetComponent<DisplacementEstimationUpdater>();

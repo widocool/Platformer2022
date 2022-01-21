@@ -17,7 +17,7 @@ namespace GSGD2.Gameplay
 		{
 			base.InteractFromTriggerEnter(sender, other);
 
-			if (other.GetComponentInParent<CubeController>() != null)
+			if (other.GetComponentInParent<PlayerRef>() != null)
 			{
 				Interact();
 			}

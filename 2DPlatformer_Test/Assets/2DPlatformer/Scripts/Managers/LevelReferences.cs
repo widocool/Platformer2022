@@ -22,7 +22,7 @@ namespace GSGD2
 		private CubeController _player = null;
 
 		[SerializeField]
-		private CinemachineBrain _cinemachineBrain = null;
+		private Camera _mainCamera = null;
 
 		[SerializeField]
 		private CameraEventManager _cameraEventManager = null;
@@ -35,23 +35,18 @@ namespace GSGD2
 
 		[SerializeField]
 		private MouseToWorld2D _mouseToWorld2D = null;
-
-		private Camera _camera = null;
+		
+		[SerializeField]
+		private LootManager _lootManager = null;
 
 		public PlayerReferences PlayerReferences => _playerReferences;
 		public CubeController Player => _player;
 		public PlayerStart PlayerStart => _playerStart;
-		public CinemachineBrain CinemachineBrain => _cinemachineBrain;
-		public Camera Camera => _camera;
+		public Camera Camera => _mainCamera;
 		public CameraEventManager CameraEventManager => _cameraEventManager;
 		public MouseToWorld2D MouseToWorld2D => _mouseToWorld2D;
 		public UIManager UIManager => _uiManager;
-
-		protected override void Awake()
-		{
-			base.Awake();
-			_camera = _cinemachineBrain.GetComponent<Camera>();
-		}
+		public LootManager LootManager => _lootManager;
 
 		protected override void OnDestroy()
 		{

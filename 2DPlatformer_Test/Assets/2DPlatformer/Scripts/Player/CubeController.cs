@@ -60,7 +60,7 @@ namespace GSGD2.Player
 		/// Modifier applied when releasing <see cref="InputMovement"/> while on the ground.
 		/// </summary>
 		[SerializeField]
-		private float _groundFriction = 1f;
+		private float _groundFriction = 5f;
 
 		/// <summary>
 		/// Speed applied to character velocity in the direction of <see cref="InputMovement"/> while in air.
@@ -144,7 +144,7 @@ namespace GSGD2.Player
 		/// Height applied to the jump force when releasing the wall jump button
 		/// </summary>
 		[SerializeField]
-		private float _wallJumpHeight = 3f;
+		public float _wallJumpHeight = 3f;
 
 		/// <summary>
 		/// Force applied to the normal vector of the wall (horizontally) to send away the character from the wall
